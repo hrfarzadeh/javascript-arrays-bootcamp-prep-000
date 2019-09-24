@@ -4,7 +4,6 @@
 
 function addElementToBeginningOfArray (array, element){
   if(Array.isArray(array)){
-    const array
     return array.unshift(element);
   }
  return array.unshift(element);
