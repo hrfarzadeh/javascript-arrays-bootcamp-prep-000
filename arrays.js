@@ -3,9 +3,6 @@
 
 
 function addElementToBeginningOfArray (array, element){
-  if(Array.isArray(array)){
-    return array.unshift(element);
-  }
  return element.unshift(array);
 }
 
